@@ -56,19 +56,24 @@ body, html {
     padding: 5px 0;
   }
   
-  .textSection {
+  .textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#534847;
     padding: 50px 80px;
     opacity: 0.9;
   }
 
   .caption {
+    max-width: 80%;
+    text-align: center;
+    background-color:#534847;
+    padding: 10px;
   }
 
   .border {
-    background-color:#534847;
     color: White;
-    padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
   }
