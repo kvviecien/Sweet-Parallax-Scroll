@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: White;
+  }
+  
+  .cake-logo {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #534847;
+    background-size: cover;
+    min-height: 100%;
+  }
+  
+  .cake-logo {
+    background-image: url("images/layers-in-homemade-cake-close-up-picjumbo-com.jpg");
+    min-height: 100%;
+    background-size: auto;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #000;
+    background-color: #FADAD8;
+    text-align:center;
+    padding: 5px 0;
+  }
+  
+  .textSection {
+    background-color:#534847;
+    padding:50px 80px;
+  }
