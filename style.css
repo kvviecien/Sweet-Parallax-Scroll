@@ -1,85 +1,85 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: White;
-  }
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
 
-  @media only screen and (min-width: 1024px) {
-    .textSection {
-      width: 60%;
-    }
+@media only screen and (min-width: 1024px) {
+  .textSection {
+    width: 60%;
   }
-  
-  .cake-logo, .chocolate-cake, .kitchen-equipment, .cake-ingredients, .cake-preparation, 
-  .cooking-instructions, .cake-decorations {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #534847;
-    background-size: cover;
-    min-height: 100%;
-    background-attachment: fixed;
-  }
-  
-  .cake-logo {
-    background-image: url("images/photo-1464941913535-1f37bfb72880.jpeg");
-  }
+}
 
-  .chocolate-cake {
-    background-image: url("images/layers-in-homemade-cake-close-up-picjumbo-com.jpg");
-  }
+.cake-logo, .chocolate-cake, .kitchen-equipment, .cake-ingredients, .cake-preparation, 
+.cooking-instructions, .cake-decorations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #534847;
+  background-size: cover;
+  min-height: 100%;
+  background-attachment: fixed;
+}
 
-  .kitchen-equipment {
-    background-image: url("images/kitchenequipment.jpeg");
-  }
+.cake-logo {
+  background-image: url("images/photo-1464941913535-1f37bfb72880.jpeg");
+}
 
-  .cake-ingredients {
-    background-image: url("images/photo-1506368083636-6defb67639a7.jpeg");
-  }
+.chocolate-cake {
+  background-image: url("images/layers-in-homemade-cake-close-up-picjumbo-com.jpg");
+}
 
-  .cake-preparation {
-    background-image: url("images/cakepreparation.jpeg");
-  }
+.kitchen-equipment {
+  background-image: url("images/kitchenequipment.jpeg");
+}
 
-  .cooking-instructions {
-    background-image: url("images/cookinginstructions.jpeg");
-  }
+.cake-ingredients {
+  background-image: url("images/photo-1506368083636-6defb67639a7.jpeg");
+}
 
-  .cake-decorations {
-    background-image: url("images/decoratingcake.jpeg");
-  }
-  
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #000;
-    background-color: #FADAD8;
-    text-align:center;
-    padding: 5px 0;
-  }
-  
-  .textContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#534847;
-    padding: 50px 80px;
-    opacity: 0.9;
-  }
+.cake-preparation {
+  background-image: url("images/cakepreparation.jpeg");
+}
 
-  .caption {
-    max-width: 80%;
-    text-align: center;
-    background-color:#534847;
-    padding: 10px;
-  }
+.cooking-instructions {
+  background-image: url("images/cookinginstructions.jpeg");
+}
 
-  .border {
-    color: White;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
+.cake-decorations {
+  background-image: url("images/decoratingcake.jpeg");
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #000;
+  background-color: #FADAD8;
+  text-align:center;
+  padding: 5px 0;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#534847;
+  padding: 50px 80px;
+  opacity: 0.9;
+}
+
+.caption {
+  max-width: 80%;
+  text-align: center;
+  background-color:#534847;
+padding: 10px;
+}
+
+.border {
+  color: White;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
