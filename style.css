@@ -5,7 +5,8 @@ body, html {
     color: White;
   }
   
-  .cake-logo {
+  .cake-logo, .chocolate-cake, .kitchen-equipment, .cake-ingredients, .cake-preparation, 
+  .cooking-instructions, .cake-decorations {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,9 +16,31 @@ body, html {
   }
   
   .cake-logo {
+    background-image: url("images/photo-1464941913535-1f37bfb72880.jpeg");
+  }
+
+  .chocolate-cake {
     background-image: url("images/layers-in-homemade-cake-close-up-picjumbo-com.jpg");
-    min-height: 100%;
-    background-size: auto;
+  }
+
+  .kitchen-equipment {
+    background-image: url("images/kitchenequipment.jpeg");
+  }
+
+  .cake-ingredients {
+    background-image: url("images/photo-1506368083636-6defb67639a7.jpeg");
+  }
+
+  .cake-preparation {
+    background-image: url("images/cakepreparation.jpeg");
+  }
+
+  .cooking-instructions {
+    background-image: url("images/cookinginstructions.jpeg");
+  }
+
+  .cake-decorations {
+    background-image: url("images/decoratingcake.jpeg");
   }
   
   h3 {
