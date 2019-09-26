@@ -7,7 +7,9 @@ body, html {
   
   .cake-logo, .chocolate-cake, .kitchen-equipment, .cake-ingredients, .cake-preparation, 
   .cooking-instructions, .cake-decorations {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #534847;
@@ -56,5 +58,17 @@ body, html {
   
   .textSection {
     background-color:#534847;
-    padding:50px 80px;
+    padding: 50px 80px;
+    opacity: 0.9;
+  }
+
+  .caption {
+  }
+
+  .border {
+    background-color:#534847;
+    color: White;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
   }
